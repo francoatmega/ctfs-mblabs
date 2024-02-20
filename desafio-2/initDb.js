@@ -4,8 +4,8 @@ SecureP@ss - 322B1714F3B1AA0B51E3968FF0AF7D034B329CF1
 RandomPass42 - 374711BA98BFE2A02E6BABE9AC7B4A8E85C1460A
 StrongPwd!789 - E911ACE26A2A2B800BA8F573781D2C3B253FFD91
 Pass120*#2 - 686A124638A2D95F013FB07A0E6E086C74C199A3
-Ch@ll3ngeMe - 8F61D2674B641DE18A9AEACF76BEE85BEFDD449D
-P@ssw0rdXYZ - 334BCC643C1BF17A517A4F1156939E4A354A577E
+_Ch@ll3ngeMe_H4RD3435 - D17A74C83DF95C6ABDD2690954B9E04D985B0547
+*P@ssw0rdXYZ-1mP0ss1bl3*& - 60BB3AFDB9ED05374269AA86AECBE01EE31DA713
 */
 
 const initDb = (db) => {
@@ -18,7 +18,7 @@ const initDb = (db) => {
             username: 'francoatmega',
             password: '49EFEF5F70D47ADC2DB2EB397FBEF5F7BC560E29',
             email: 'jardel.matias@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U040UG6G4VB-f080d5028a70-512',
             role: 'user',
             description: 'Happy Hacking! ;)',
             full_name: 'Jardel Matias',
@@ -30,7 +30,7 @@ const initDb = (db) => {
             username: 'e.campos',
             password: '322B1714F3B1AA0B51E3968FF0AF7D034B329CF1',
             email: 'erick.campos@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U04CQUK2JNN-03e645dac281-512',
             role: 'user',
             description: '',
             full_name: 'Erick Campos',
@@ -42,7 +42,7 @@ const initDb = (db) => {
             username: 'alê',
             password: '374711BA98BFE2A02E6BABE9AC7B4A8E85C1460A',
             email: 'alessandro.vaiz@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U035EHP8DH9-b519af8afb25-512',
             role: 'user',
             description: 'Alessandro Vaiz',
             full_name: 'Alessandro Vaiz',
@@ -54,7 +54,7 @@ const initDb = (db) => {
             username: 'nori',
             password: 'E911ACE26A2A2B800BA8F573781D2C3B253FFD91',
             email: 'leonardo.nori@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U634BR602-adc2d054a429-192',
             role: 'user',
             description: 'Descrição do Usuário 5',
             full_name: 'Leonardo Nori',
@@ -66,7 +66,7 @@ const initDb = (db) => {
             username: 'lcarlos',
             password: '686A124638A2D95F013FB07A0E6E086C74C199A3',
             email: 'luan.carlos@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U04M3NGB25D-b050d816dcb7-192',
             role: 'user',
             description: '',
             full_name: 'Luan Carlos',
@@ -76,11 +76,11 @@ const initDb = (db) => {
           {
             id: 'MB202420',
             username: 'juanzito',
-            password: '8F61D2674B641DE18A9AEACF76BEE85BEFDD449D',
+            password: 'D17A74C83DF95C6ABDD2690954B9E04D985B0547',
             email: 'juan.cleiton@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U03FHG74XLM-f8317a9df0ca-192',
             role: 'user',
-            description: 'Aqui terá os dados de outra flag',
+            description: 'Parabéns até aqui, você conseguiu "invadir" a aplicação, agora para recuperar o seu prêmio mande uma mensagem para Jardel Matias no Slack, com o seguinte código: IDOR-VULN-2024-600ccd1b71569232d01d110bc63e906beab04d8c <br> Rápido pois só o primeiro que conseguir será o ganhador!',
             full_name: 'Juan Cleiton',
             date_of_birth: '1990-07-25',
             location: 'Rio de Janeiro, Brasil'
@@ -88,11 +88,11 @@ const initDb = (db) => {
           {
             id: 'MB202421',
             username: 'maraba',
-            password: '334BCC643C1BF17A517A4F1156939E4A354A577E',
+            password: '60BB3AFDB9ED05374269AA86AECBE01EE31DA713',
             email: 'marcello.marabita@mblabs.com.br',
-            profile_pic: 'https://w7.pngwing.com/pngs/177/551/png-transparent-user-interface-design-computer-icons-default-stephen-salazar-graphy-user-interface-design-computer-wallpaper-sphere-thumbnail.png',
+            profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U06JRM6AJ-3f2af327e91e-192',
             role: 'admin',
-            description: 'Aqui é o perfil do administrador, parabéns por ter conseguido acessar, agora decifre o seguinte código e mande um email para marcello.marabita com o valor decodificado e como descobriu a falha! <br> Rápido pois só terá um ganhador!',
+            description: 'Aqui é o perfil do administrador, parabéns por ter conseguido "invadir" a aplicação, agora para recuperar o seu prêmio mande uma mensagem para Jardel Matias no Slack, com o seguinte código: BROKEN-AUTH-VULN-2024-6dcd4ce23d88e2ee9568ba546c007c63d9131c1b <br> Rápido pois só o primeiro que conseguir será o ganhador!',
             full_name: 'Marcello Marabita',
             date_of_birth: '1980-02-28',
             location: 'Campinas, SP'

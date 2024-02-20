@@ -1,4 +1,5 @@
 const express = require('express');
+const rateLimit = require('express-rate-limit')
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const sqlite3 = require('sqlite3');
@@ -16,6 +17,15 @@ function sha1(data) {
 const db = new sqlite3.Database(':memory:');
 
 initDb(db);
+
+const limiter = rateLimit({
+	windowMs: 15 * 60 * 1000, // 15 minutes
+	limit: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes).
+	standardHeaders: 'draft-7', // draft-6: `RateLimit-*` headers; draft-7: combined `RateLimit` header
+	legacyHeaders: false, // Disable the `X-RateLimit-*` headers.
+})
+
+app.use(limiter)
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -44,7 +54,7 @@ app.post('/login', async (req, res) => {
         }
     
         db.get('SELECT * FROM users WHERE username = ? AND password = ?', [username, sha1(password).toUpperCase()], (err, row) => {
-    
+            
             if (!row) {
                 return res.status(401).send({ message: 'Invalid username or password'});
             }
