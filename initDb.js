@@ -68,7 +68,7 @@ const initDb = (db) => {
             email: 'luan.carlos@mblabs.com.br',
             profile_pic: 'https://ca.slack-edge.com/T06JRN0TA-U04M3NGB25D-b050d816dcb7-192',
             role: 'user',
-            description: '',
+            description: 'Almost there...',
             full_name: 'Luan Carlos',
             date_of_birth: '1999-04-12',
             location: 'Maceió, Pernambuco'
