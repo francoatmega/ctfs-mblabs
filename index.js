@@ -7,7 +7,7 @@ const crypto = require('crypto');
 
 const app = express();
 const { initDb } = require('./initDb');
-const port = 3000;
+const port = process.env.PORT || 3000;
 const secretKey = 'your_secret_key';
 
 function sha1(data) {
