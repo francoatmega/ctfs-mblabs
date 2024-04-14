@@ -1,5 +1,7 @@
 const express = require('express');
 const sqlite3 = require('sqlite3');
+const path = require('path');
+const os = require('os');
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -21,7 +23,8 @@ app.use(bodyParser.json());
 
 // Serve login page
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/login.html');
+  const login = path.join(__dirname, 'public', 'login.html')
+  res.sendFile(login);
 });
 
 // Login endpoint
